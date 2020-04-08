@@ -30,14 +30,8 @@ public class MiddleLinkedList {
 	
 	public static void main(String[] args) {
 
-        /* Start with the empty list. */
+  
         LinkedList list = new LinkedList(); 
-  
-        // 
-        // ******INSERTION****** 
-        // 
-  
-        // Insert the values 
         list = LinkedList.insert(list, 1); 
         list = LinkedList.insert(list, 2); 
         list = LinkedList.insert(list, 3); 
@@ -46,7 +40,7 @@ public class MiddleLinkedList {
         list = LinkedList.insert(list, 6); 
         list = LinkedList.insert(list, 7); 
         list = LinkedList.insert(list, 8);
-	
+        list = LinkedList.insertBefore(list,2,88);      
         LinkedList.printList(list.Head);
     	ListNode result = new MiddleLinkedList().middleNode(list.Head);
     	LinkedList.printList(result);
