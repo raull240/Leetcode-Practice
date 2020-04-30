@@ -1,11 +1,14 @@
 package thirtyDaysofCode;
 
-/*Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+/** 
+ * @author rahulrao
+ Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
 push(x) -- Push element x onto stack.
 pop() -- Removes the element on top of the stack.
 top() -- Get the top element.
 getMin() -- Retrieve the minimum element in the stack.
+
   */
 
 import java.util.*;
@@ -30,9 +33,9 @@ public class MinStack {
 	}
 
 	public void pop() {
-		
+
 		stack.pop();
-		
+
 	}
 
 	public int top() {
@@ -57,6 +60,6 @@ public class MinStack {
 		int param_4 = obj.getMin();
 		System.out.println("min element is" + param_4);
 		obj.pop();
-		
+
 	}
 }

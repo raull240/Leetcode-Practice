@@ -30,6 +30,7 @@ Output: 1
 public class LeftMostColumnWithAtleastaOne {
 
 	/**
+	 * 
 	 * // This is the BinaryMatrix's API interface. // You should not implement it,
 	 * or speculate about its implementation interface BinaryMatrix { public int
 	 * get(int x, int y) {} public List<Integer> dimensions {} };

@@ -1,7 +1,6 @@
 package thirtyDaysofCode;
 
-
-/*
+/**
  Given an array of strings, group anagrams together.
 
 Example:
@@ -40,11 +39,11 @@ public class GroupAnagrams {
 		result.addAll(map.values());
 		return result;
 	}
-	
+
 	public static void main(String[] args) {
-		String[] group = {"eat", "tea", "tan", "ate", "nat", "bat"};
+		String[] group = { "eat", "tea", "tan", "ate", "nat", "bat" };
 		List<List<String>> result = new GroupAnagrams().groupAnagrams(group);
-		for (List<String> res: result) {
+		for (List<String> res : result) {
 			System.out.println(res.toString());
 		}
 	}

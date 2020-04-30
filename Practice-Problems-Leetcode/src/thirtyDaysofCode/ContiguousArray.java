@@ -1,6 +1,6 @@
 package thirtyDaysofCode;
 
-/*
+/**
  * Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
 
 Example 1:
